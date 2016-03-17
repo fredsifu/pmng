@@ -1,3 +1,7 @@
+footer {
+  margin-top: 50px;
+}
+
 .features {
   ul {
     margin-left: 0;
@@ -52,4 +56,14 @@
 
 .no-right-padding {
   padding-right: 0px !important;
+}
+
+.table tr td {
+  a.main-link {
+    color: #428bca;
+  }
+  
+  a.main-link:hover {
+    background: none;
+  }
 }
