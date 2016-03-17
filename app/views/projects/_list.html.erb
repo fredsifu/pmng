@@ -31,7 +31,7 @@
   </tbody>
 </table>
 <% else %>
-<p>You don't have any projects yet.</p>
+  <p>You don't have any projects yet.</p>
 <% end %>
 <% if @tenant.can_create_projects? %>
   <%= link_to 'New Project', new_tenant_project_path(tenant_id: @tenant.id), class: 'btn btn-primary' %>
