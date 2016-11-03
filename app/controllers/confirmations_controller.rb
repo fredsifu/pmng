@@ -52,7 +52,7 @@ class ConfirmationsController < Milia::ConfirmationsController
   
   def after_confirmation_path_for(resource_name, resource)
     if user_signed_in?
-      root_paht
+      root_path
     else
       new_user_session_path
     end

@@ -22,3 +22,17 @@ The Cloud9 IDE team
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
+
+
+
+!!!--------------------
+Add these to your .bashrc or .profile (with codes of course) to allow for aws access and stripe functionality
+
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+export S3_BUCKET=
+export AWS_REGION=
+export STRIPE_TEST_PUBLISHABLE_KEY=
+export STRIPE_TEST_SECRET_KEY=
+
+!!!--------------------
